@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+body {
+    background-color: #3498db;
+}
+
+header {
+    text-align: center;
+    padding: 25px 0px;
+    background-color: darken(#2980b9, 15%);
+    box-shadow: 0px 0px 200px 300px darken(#2980b9, 15%);
+}
+
+#title {
+    color: #fff;
+}
+
+#instructions {
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+
+
+    #instructionsText {
+        margin: 0 auto;
+        max-width: 500px;
+        font-size: 12px;
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 15px;
+        // font-weight: 600;
+
+    }
+}
+
+#listings {
+    max-width: 800px;
+    width: inherit;
+    margin: 0 auto;
+}
+
+.listing {
+    max-width: 500px;
+    width: 80%;
+
+    // height: 50px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.3);
+
+    border-radius: 10px;
+    padding: 25px;
+
+    margin: 0 auto;
+    display: grid;
+    font-size: 14px;
+    text-align: left;
+
+    grid-template-columns: 20% auto 5% 5% 5%;
+
+    .from {
+        color: #e74c3c;
+        font-weight: 600;
+    }
+
+    .to {
+        color: #2ecc71;
+        font-weight: 600;
+
+    }
+
+    div {
+        padding: 3px;
+    }
+
+}
