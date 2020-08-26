@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    const dataURL = "../swaps.json";
+    const dataURL = "/swaps.json";
 
     $.getJSON(dataURL, (jsonData) => {
 
