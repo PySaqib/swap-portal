@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    const dataURL = "/swaps.json";
+    const dataURL = "https://pysaqib.github.io/swap-portal/swaps.json";
 
     $.getJSON(dataURL, (jsonData) => {
 
