@@ -5,6 +5,18 @@
             "course" : "Discrete Structures",
             "from" : "A",
             "to" : "G"
+        },
+        {
+            "rollNo" : "l190996",
+            "course" : "Entrepreneurship",
+            "from" : "A",
+            "to" : "B"
+        },
+        {
+            "rollNo" : "l190996",
+            "course" : "Entrepreneurship",
+            "from" : "A",
+            "to" : "C"
         }
     ]
 }
